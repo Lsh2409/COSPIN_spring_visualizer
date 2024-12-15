@@ -4,7 +4,7 @@ import streamlit as st
 from io import BytesIO
 
 # Streamlit title
-st.title("COSPIN Spring Visualization")
+st.title("COSPIN Spring Visualizer")
 
 # File uploader
 file = st.file_uploader("Upload COSPIN spring text output file", type=["txt"])
